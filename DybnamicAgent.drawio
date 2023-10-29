@@ -1,0 +1,179 @@
+<mxfile host="app.diagrams.net" modified="2023-10-29T12:14:00.585Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="2Xje4J-KSqQXyrUM1V37" version="21.8.1" type="github">
+  <diagram name="Page-1" id="4bMjsid2UtYStN-u2KiD">
+    <mxGraphModel dx="954" dy="1816" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6u1eEpa2Vg1VSWxQ9kUs-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="80" y="10" width="620" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="6u1eEpa2Vg1VSWxQ9kUs-2" value="Kubernetes - Master Node" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="20" width="570" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6u1eEpa2Vg1VSWxQ9kUs-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="90" width="570" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="6u1eEpa2Vg1VSWxQ9kUs-4" value="Kubetnetes-Slave" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="590" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6u1eEpa2Vg1VSWxQ9kUs-5" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6u1eEpa2Vg1VSWxQ9kUs-6" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="100" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6u1eEpa2Vg1VSWxQ9kUs-10" value="control Plane" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="35" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6u1eEpa2Vg1VSWxQ9kUs-14" value="Jenkins master- Pod" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6u1eEpa2Vg1VSWxQ9kUs-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6u1eEpa2Vg1VSWxQ9kUs-15" target="6u1eEpa2Vg1VSWxQ9kUs-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6u1eEpa2Vg1VSWxQ9kUs-15" value="Jenkins- Slave (Agent)- running only when build is triggered" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="100" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6u1eEpa2Vg1VSWxQ9kUs-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="6u1eEpa2Vg1VSWxQ9kUs-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="124.5" as="sourcePoint" />
+            <mxPoint x="370" y="125" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6u1eEpa2Vg1VSWxQ9kUs-21" value="master Controls slave" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="6u1eEpa2Vg1VSWxQ9kUs-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6u1eEpa2Vg1VSWxQ9kUs-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6u1eEpa2Vg1VSWxQ9kUs-22" target="6u1eEpa2Vg1VSWxQ9kUs-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="-120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6u1eEpa2Vg1VSWxQ9kUs-22" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="35" y="-140" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6u1eEpa2Vg1VSWxQ9kUs-23" value="dockerHub" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="-170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6u1eEpa2Vg1VSWxQ9kUs-24" value="maven:alpine" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="-130" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6u1eEpa2Vg1VSWxQ9kUs-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="6u1eEpa2Vg1VSWxQ9kUs-26" target="6u1eEpa2Vg1VSWxQ9kUs-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6u1eEpa2Vg1VSWxQ9kUs-26" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="-140" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6u1eEpa2Vg1VSWxQ9kUs-27" value="Github" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="-170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6u1eEpa2Vg1VSWxQ9kUs-33" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="285" y="190" width="355" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="6u1eEpa2Vg1VSWxQ9kUs-37" value="&lt;h1&gt;Jenkinsfile&lt;/h1&gt;&lt;p&gt;Define Agent Name. - (Maven)&lt;/p&gt;&lt;p&gt;define the parametres. - checkbox, drop down, textbook&lt;/p&gt;&lt;p&gt;stages - 1-2-3&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp;prepare agent for deployment - install Kubectl&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp;download code from git&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp;deploy the application&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="190" width="330" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="6u1eEpa2Vg1VSWxQ9kUs-40" value="Sample - &amp;nbsp;Pod" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6u1eEpa2Vg1VSWxQ9kUs-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6u1eEpa2Vg1VSWxQ9kUs-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="160" />
+              <mxPoint x="200" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6u1eEpa2Vg1VSWxQ9kUs-44" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="135" y="190" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6u1eEpa2Vg1VSWxQ9kUs-45" value=".kube/config" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6u1eEpa2Vg1VSWxQ9kUs-48" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" width="340" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="6u1eEpa2Vg1VSWxQ9kUs-49" value="Manisha&#39;s computer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="900" y="-40" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6u1eEpa2Vg1VSWxQ9kUs-50" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="35" width="250" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="6u1eEpa2Vg1VSWxQ9kUs-51" value="Terminal" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="910" y="10" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6u1eEpa2Vg1VSWxQ9kUs-52" value=".kube/config" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="850" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6u1eEpa2Vg1VSWxQ9kUs-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.384;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6u1eEpa2Vg1VSWxQ9kUs-52" target="6u1eEpa2Vg1VSWxQ9kUs-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6u1eEpa2Vg1VSWxQ9kUs-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.003;entryY=0.079;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6u1eEpa2Vg1VSWxQ9kUs-50" target="6u1eEpa2Vg1VSWxQ9kUs-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6u1eEpa2Vg1VSWxQ9kUs-55" value="Kubectl installed on system &amp;nbsp;and Kubectl is connecting to Kubernetes cluster via config file" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="850" y="40" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6u1eEpa2Vg1VSWxQ9kUs-58" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="670" width="630" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="6u1eEpa2Vg1VSWxQ9kUs-60" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="700" width="120" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="6u1eEpa2Vg1VSWxQ9kUs-62" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="265" y="700" width="120" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="6u1eEpa2Vg1VSWxQ9kUs-63" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="700" width="120" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="6u1eEpa2Vg1VSWxQ9kUs-64" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="695" width="120" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="6u1eEpa2Vg1VSWxQ9kUs-65" value="DevOps-tools" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="670" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6u1eEpa2Vg1VSWxQ9kUs-66" value="default" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="285" y="670" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6u1eEpa2Vg1VSWxQ9kUs-67" value="MyProject" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="670" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6u1eEpa2Vg1VSWxQ9kUs-68" value="weatherProject" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="670" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6u1eEpa2Vg1VSWxQ9kUs-69" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="710" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6u1eEpa2Vg1VSWxQ9kUs-70" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="770" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6u1eEpa2Vg1VSWxQ9kUs-73" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="820" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6u1eEpa2Vg1VSWxQ9kUs-74" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="880" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6u1eEpa2Vg1VSWxQ9kUs-75" value="Jenkins-Master" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="135" y="715" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6u1eEpa2Vg1VSWxQ9kUs-76" value="Maven-Slave - Jenkins" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="775" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6u1eEpa2Vg1VSWxQ9kUs-77" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="750" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6u1eEpa2Vg1VSWxQ9kUs-78" value="samplePod" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="755" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6u1eEpa2Vg1VSWxQ9kUs-79" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="330" width="530" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="6u1eEpa2Vg1VSWxQ9kUs-80" value="&lt;h1&gt;MySampleProject&lt;/h1&gt;&lt;p&gt;Kubernetesfiles - yaml1 / 2/23/3/4/4/5 &amp;nbsp; &amp;nbsp; files&lt;/p&gt;&lt;p&gt;config - dev / sit/ uat/ prod &amp;nbsp; &amp;nbsp; folders - leave them empty&lt;/p&gt;&lt;p&gt;AnsibleRoles / leave it empty - Ansible roles to learn&lt;br&gt;&lt;/p&gt;&lt;p&gt;MyKubeProject - &amp;gt; emplty - we will do &amp;nbsp;charts in it - to learn&lt;br&gt;&lt;/p&gt;&lt;p&gt;scripts - shell scripts &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;jenkinsfile&lt;/p&gt;&lt;p&gt;README.md&lt;/p&gt;&lt;p&gt;.gitignore&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="790" y="370" width="500" height="360" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
